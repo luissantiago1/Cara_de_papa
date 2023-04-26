@@ -1,0 +1,118 @@
+.fondo{
+    width: 768px;
+    height: 600px;
+    margin: 20px auto;
+    background: aqua;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+/* .fondo .content{
+    width: 768px;
+    height: 600px;
+}
+
+.fondo .content:hover{
+    zoom: 110%;
+    transform: translateY(-30px);
+} */
+
+/* .fondo:hover{
+    transform: rotate3d(1, 1, 1, 3deg) matrix3d(
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      6,
+      0,
+      0,
+      0,
+      1,
+      0,
+      50,
+      100,
+      0,
+      1.1
+    );
+} */
+
+.fondo .ear-left{
+    position: absolute;
+    right: 62%;
+    top: 31%;
+}
+
+.fondo .ear-right{
+    position: absolute;
+    top: 31%;
+    right: 24.5%;
+}
+
+.fondo .eye-left{
+    position: absolute;
+    right: 50%;
+    top: 36%;
+    z-index: 2;
+}
+
+.fondo .eye-right{
+    position: absolute;
+    right: 39%;
+    top: 36%;
+    z-index: 2;
+}
+
+.fondo .face{
+    position: absolute;
+    right: 30.5%;
+    top: 26%;
+}
+
+.fondo .foot-left{
+    position: absolute;
+    right: 50.5%;
+    top: 81%;
+    z-index: -1;
+}
+
+.fondo .foot-right{
+    position: absolute;
+    right: 31%;
+    top: 81%;
+    z-index: -1;
+}
+
+.fondo .hat{
+    position: absolute;
+    top: 10%;
+    right: 34.5%;
+}
+
+.fondo .moustache{
+    position: absolute;
+    right: 38%;
+    top: 67%;
+}
+
+.fondo .nose{
+    position: absolute;
+    right: 41%;
+    top: 46.5%;
+    z-index: 3;
+}
+
+.fondo .eye-left:hover{
+    transform: rotateY(30deg);
+}
+
+.fondo .eye-right:hover{
+    transform: rotateY(30deg);
+}
+
+.fondo .hat:hover{
+    transform:  translateY(-2px);
+  }
